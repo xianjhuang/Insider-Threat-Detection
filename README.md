@@ -8,7 +8,7 @@ The project consists of the following modules:
   * Image Representation
   * Classification
   
-#### Feature Extraction
+### Feature Extraction
 The feature extraction process reads the log files which consists of logon/logoff information, the files handled by the user, the external devices used by the user, email communications sent/received by the user, details of the browsing history. The logs contain raw information in the form of rows and columns. These logs are used to extract useful features from the data. We have used the popular CERT CMU insider threat data set. 
 
 ### Image Representation

@@ -1,6 +1,7 @@
 import numpy as np
 import keras
 import matplotlib.pyplot as plt
+import keras.metrics
 from keras.layers import Dense,GlobalAveragePooling2D,Dropout,Conv2D
 from keras.applications import MobileNetV2,vgg16
 from keras.preprocessing import image
@@ -8,8 +9,6 @@ from keras.applications.mobilenet import preprocess_input
 from keras.preprocessing.image import ImageDataGenerator
 from keras.models import Model
 from keras.optimizers import Adam, RMSprop, SGD
-import keras.metrics
-
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import precision_score
 from sklearn.metrics import recall_score

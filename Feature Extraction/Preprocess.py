@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Aug 27 09:23:18 2019
-
-@author: gradhabaigopina
 """
 from sklearn import preprocessing
 import pandas as pd
